@@ -1,0 +1,454 @@
+@media only screen and (min-width: 780px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        /* background-color: black; */
+    }
+    
+    body{
+        overflow-x: hidden;
+        /* overflow-y: scroll; */
+        /* text-align: center; */
+        /* width: 1530px; */
+        /* height: 100%; */
+        /* overflow: hidden; */
+        /* height: 100vh; */
+        /* background-color: black; */
+    }
+    body div#body-container{
+        /* min-width: 800px; */
+        max-width: 1565px;
+        height: 100vh;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        /* position: absolute; */
+        /* text-align: center; */
+        background-color: rgb(0, 0, 0);
+    }
+    body div#body-container video{
+        /* height: 100vh; */
+        min-height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        /* right: 28%; */
+        top: -50%;
+        left:0;
+        /* background-color: #0044aa; */
+    }
+    body div#body-container video source{
+        /* width: 500vw; */
+        /* height: 500px !important; */
+        position: absolute;
+        display: block;
+    
+    }
+    
+                /* form start */
+    
+    
+                    /* form sign start */
+    
+    
+    body div#body-container div#form-container{
+        max-width: 30%;
+        min-width: 300px;
+        height: 100vh;
+        background-color: whitesmoke;
+        position: relative;
+        /* margin: 0 auto; */
+        overflow: hidden;
+        float: right;
+        /* left: 20%; */
+        font-family: 'Markazi Text', serif;
+        /* top: 5%; */
+        text-align: right;
+        /* margin: 0 auto; */
+        /* height: 600px; */
+        box-shadow: -10px 0px 50px 10px rgb(50, 50, 50);
+    }
+    /* body div#body-container div#form-container{
+        left: 0%;
+        top: 15%;
+    } */
+    
+    body div#body-container div#form-container div.form-top{
+        background-color: whitesmoke;
+        font-weight: bolder;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    /* body div#body-container div#form-container div.form-top>div{
+        border-bottom: 5px solid rgba(127, 0, 0, 0.697);
+    } */
+    body div#body-container div#form-container div.form-sign{
+        transition-property: visibility 0s, opacity 0.5s linear;
+        /* transition-duration: 1s; */
+        display: none;
+        background-color: yellow;
+        min-height: 340px;
+    
+    }
+    body div#body-container div#form-container div.form-main>div label{
+        /* direction: rtl; */
+        /* text-align: right; */
+        float: right;
+        direction: rtl;
+        /* background-color: red; */
+    }
+    body div#body-container div#form-container div.form-main>div div#emailHelp,
+    body div#body-container div#form-container div.form-main>div div#userHelp{
+        /* background-color: red; */
+        text-align: right;
+        direction: rtl;
+        font-size: 15px;
+    
+    }
+    body div#body-container div#form-container div.form-main>div input{
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+    body div#body-container div#form-container div.form-main>div input#sign-pass,
+    body div#body-container div#form-container div.form-main>div input#log-pass{
+        padding-right: 50px;
+    }
+    body div#body-container div#form-container div.form-main>div div.showpassword-toggle{
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+        top: 7.8rem;
+        width: fit-content;
+        /* background-color: #dc3545; */
+        padding: 10px;
+        height: 37px;
+        right: -0.63rem;
+        border-radius: 0 0.375rem 0.375rem 0;
+        cursor: pointer;
+        /* display: none; */
+    }
+    body div#body-container div#form-container div.form-main>div div.showpassword-show{
+        display: none;
+    }
+    body div#body-container div#form-container div.form-main>div input:focus{
+        box-shadow:0 0 2px 1px #0044aa;
+        border-color: rgba(127, 0, 0, 0.144);
+        outline: none;
+    }
+    body div#body-container div#form-container div.form-sign>button#sign-back{
+        margin-right: 10px;
+    }
+    body div#body-container div#form-container div.form-main>div>div.alert{
+        /* text-align: left; */
+        direction: rtl;
+        padding: 0px;
+        margin: 5px 0;
+        background-color: whitesmoke;
+        outline: none;
+        border: none;
+        color: #dc3545;
+        animation: errorglowing 1s infinite;
+        animation-fill-mode: forwards;
+        display: none;
+    }
+    body div#body-container div#form-container div.form-top div.col{
+        padding: 20px 5px;
+    }
+    body div#body-container div#form-container div.form-main{
+        background-color: whitesmoke;
+        padding: 20px 30px;
+    }
+    @keyframes errorglowing{
+        0% {text-shadow: 0px 0px rgb(255, 109, 109);}
+        50%{text-shadow:0 0 rgb(255, 255, 255);}
+        100%{text-shadow: 0px 0px rgb(255, 109, 109);}
+    }
+    /* body div#body-container div#form-container div.form-sign>div{
+        display: none;
+    } */
+    /* body div#body-container div#form-container div.form-main>div div.showpassword-toggle{
+        background-color: #dc3545;
+        position: relative;
+        bottom: 1.8rem;
+        left: 22.6rem;
+        
+    } */
+    
+    
+                /* form sign end */
+    
+    
+                /* form log start */
+    
+    body div#body-container div#form-container div.form-log{
+        min-height: 340px;
+    }
+    body div#body-container div#form-container div.form-log>div>div{
+        position: relative;
+        /* background-color: aqua; */
+    }
+    body div#body-container div#form-container div.form-log>div div.showpassword-toggle{
+        /* top:unset; */
+        position: absolute;
+        /* bottom: 2.35rem; */
+        /* background-color: #dc3545; */
+        top: 32px;
+        margin-right: 0;
+        right: 0;
+        /* margin-bottom: -35px; */
+        /* left: 80%; */
+        display: inline-block;
+    }
+    body div#body-container div#form-container div.form-log>div div.showpassword-show1{
+        display: none;
+    }
+    
+
+            /* form log end */
+
+    
+    body div#body-container div#form-container div.form-information{
+        /* background-color: red; */
+        position: relative;
+        bottom: 0;
+    }
+                
+    body div#body-container div#form-container div.form-information-container>div{
+        /* background-color: yellow; */
+        padding: 10px 20px;
+        text-align: right;
+    }
+    body div#body-container div#form-container div.form-information-container>div#contact-us{
+        /* background-color: greenyellow; */
+        text-align: right;
+    }
+    body div#body-container div#form-container div.form-information-container>div#contact-us>h3,
+    body div#body-container div#form-container div.form-information-container>div#contact-us>p{
+        /* background-color: greenyellow; */
+        text-align: right;
+    }
+    body div#body-container div#form-container div.form-information-container>div#contact-us div.col{
+        margin-top: 10px;
+    }
+
+
+
+        
+    
+            /* form end */
+}
+@media only screen and (max-width: 780px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style-type: none;
+        /* background-color: black; */
+    }
+    
+    body{
+        overflow-x: hidden;
+        /* overflow-y: scroll; */
+        /* text-align: center; */
+        /* width: 1530px; */
+        /* height: 100%; */
+        /* overflow: hidden; */
+        /* height: 100vh; */
+        /* background-color: black; */
+    }
+    body div#body-container{
+        /* min-width: 800px; */
+        max-width: 1565px;
+        height: 100vh;
+        margin: 0 auto;
+        position: relative;
+        overflow: hidden;
+        /* position: absolute; */
+        /* text-align: center; */
+        background-color: rgb(0, 0, 0);
+    }
+    body div#body-container video{
+        height: 100vh;
+        overflow: hidden;
+        position: absolute;
+        right: 30%;
+        top: 0;
+    }
+    body div#body-container video source{
+        /* width: 500vw; */
+        /* height: 500px !important; */
+        position: absolute;
+        display: block;
+    
+    }
+    
+                /* form start */
+    
+    
+                    /* form sign start */
+    
+    
+    body div#body-container div#form-container{
+        /* direction: ltr; */
+        /* max-width: 20%; */
+        /* min-width: 20%; */
+        max-width: 30%;
+        min-width: 300px;
+        /* border-radius: 10px; */
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        left: 20%;
+        font-family: 'Markazi Text', serif;
+        top: 5%;
+        text-align: right;
+        /* margin: 0 auto; */
+        /* height: 600px; */
+        box-shadow: 0 0 10px 1px rgba(255, 187, 187, 0.455);
+    }
+    body div#body-container div#form-container{
+        left: 0%;
+        top: 15%;
+    }
+    body div#body-container video{
+        display: none;
+        visibility: hidden;
+    }
+    
+    body div#body-container div#form-container div.form-top{
+        background-color: whitesmoke;
+        font-weight: bolder;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    /* body div#body-container div#form-container div.form-top>div{
+        border-bottom: 5px solid rgba(127, 0, 0, 0.697);
+    } */
+    body div#body-container div#form-container div.form-sign{
+        transition-property: visibility 0s, opacity 0.5s linear;
+        /* transition-duration: 1s; */
+        display: none;
+    
+    }
+    body div#body-container div#form-container div.form-main>div label{
+        /* direction: rtl; */
+        /* text-align: right; */
+        float: right;
+        direction: rtl;
+        /* background-color: red; */
+    }
+    body div#body-container div#form-container div.form-main>div div#emailHelp,
+    body div#body-container div#form-container div.form-main>div div#userHelp{
+        /* background-color: red; */
+        text-align: right;
+        direction: rtl;
+        font-size: 15px;
+    
+    }
+    body div#body-container div#form-container div.form-main>div input{
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+    body div#body-container div#form-container div.form-main>div input#sign-pass,
+    body div#body-container div#form-container div.form-main>div input#log-pass{
+        padding-right: 50px;
+    }
+    body div#body-container div#form-container div.form-main>div div.showpassword-toggle{
+        position: absolute;
+        right: 0;
+        margin-right: 40px;
+        top: 7.8rem;
+        width: fit-content;
+        /* background-color: #dc3545; */
+        padding: 10px;
+        height: 37px;
+        right: -0.63rem;
+        border-radius: 0 0.375rem 0.375rem 0;
+        cursor: pointer;
+        /* display: none; */
+    }
+    body div#body-container div#form-container div.form-main>div div.showpassword-show{
+        display: none;
+    }
+    body div#body-container div#form-container div.form-main>div input:focus{
+        box-shadow:0 0 2px 1px #0044aa;
+        border-color: rgba(127, 0, 0, 0.144);
+        outline: none;
+    }
+    body div#body-container div#form-container div.form-sign>button#sign-back{
+        margin-right: 10px;
+    }
+    body div#body-container div#form-container div.form-main>div>div.alert{
+        /* text-align: left; */
+        direction: rtl;
+        padding: 0px;
+        margin: 5px 0;
+        background-color: whitesmoke;
+        outline: none;
+        border: none;
+        color: #dc3545;
+        animation: errorglowing 1s infinite;
+        animation-fill-mode: forwards;
+        display: none;
+    }
+    body div#body-container div#form-container div.form-top div.col{
+        padding: 20px 5px;
+    }
+    body div#body-container div#form-container div.form-main{
+        background-color: whitesmoke;
+        padding: 20px 30px;
+    }
+    @keyframes errorglowing{
+        0% {text-shadow: 0px 0px rgb(255, 109, 109);}
+        50%{text-shadow:0 0 rgb(255, 255, 255);}
+        100%{text-shadow: 0px 0px rgb(255, 109, 109);}
+    }
+    /* body div#body-container div#form-container div.form-sign>div{
+        display: none;
+    } */
+    /* body div#body-container div#form-container div.form-main>div div.showpassword-toggle{
+        background-color: #dc3545;
+        position: relative;
+        bottom: 1.8rem;
+        left: 22.6rem;
+        
+    } */
+    
+    
+                /* form sign end */
+    
+    
+                /* form log start */
+    
+    
+    body div#body-container div#form-container div.form-log>div>div{
+        position: relative;
+        /* background-color: aqua; */
+    }
+    body div#body-container div#form-container div.form-log>div div.showpassword-toggle{
+        /* top:unset; */
+        position: absolute;
+        /* bottom: 2.35rem; */
+        /* background-color: #dc3545; */
+        top: 32px;
+        margin-right: 0;
+        right: 0;
+        /* margin-bottom: -35px; */
+        /* left: 80%; */
+        display: inline-block;
+    }
+    body div#body-container div#form-container div.form-log>div div.showpassword-show1{
+        display: none;
+    }
+    body div#body-container div#form-container div.form-information{
+        display: none;
+    }
+
+
+            /* form log end */
+
+            /* form end */
+}
